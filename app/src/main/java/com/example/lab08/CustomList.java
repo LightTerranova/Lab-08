@@ -20,10 +20,10 @@ public class CustomList {
     }
 
     public void deleteCity(City city) {
-
+        cities.remove(city);
     }
 
-    public void countCities() {
-
+    public int countCities() {
+        return 1;
     }
 }
