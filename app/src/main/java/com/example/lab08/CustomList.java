@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CustomList {
-    private List<City> cities;
+    public List<City> cities;
 
     public CustomList() {
         this.cities = new ArrayList<>();
@@ -17,5 +17,7 @@ public class CustomList {
     
 
     // Will be implemented later using TDD (leave blank for now)
-    // public boolean hasCity(City city) { ... }
+    public boolean hasCity(City city) {
+        return true;
+    }
 }
