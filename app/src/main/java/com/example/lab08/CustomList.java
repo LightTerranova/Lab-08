@@ -14,10 +14,16 @@ public class CustomList {
         cities.add(city);
     }
 
-    
-
-    // Will be implemented later using TDD (leave blank for now)
+    // done
     public boolean hasCity(City city) {
-        return false;
+        return cities.contains(city);
+    }
+
+    public void deleteCity(City city) {
+
+    }
+
+    public void countCities() {
+
     }
 }
